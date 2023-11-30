@@ -1,9 +1,32 @@
 .flexContainer{
     display: flex;
-    width: 33px;
+    justify-content: center;
+}
+ h1{
+    font-family: clash display;
+    font-weight: 400;
+    text-align: center;
+    font-display: auto;
+ }
+
+img{
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.workGrid{
+    display: grid;
+    grid-template-rows: 50% 50% 50% 50%;
+    grid-template-columns: 50% 50%;
+    justify-content: center; 
+}
+
+button{
+    font-family: avenir; 
 
 }
 
-body{
-   background-color: red;
+h3{
+    font-family: archivo, avenir;
+    font-weight: 200;
 }
