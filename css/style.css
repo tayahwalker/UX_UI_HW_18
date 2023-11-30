@@ -12,13 +12,19 @@
 img{
     max-width: 70%;
     max-height: 70%;
+    margin: 0%;
 }
 
 .workGrid{
     display: grid;
     grid-template-rows: 50% 50% 50% 50%;
     grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "prject1 project2"
+    "project3 project4";
     justify-content: center; 
+    margin: 0%;
+    padding: 0%
 }
 
 button{
@@ -30,3 +36,26 @@ h3{
     font-family: archivo, avenir;
     font-weight: 200;
 }
+
+/*@media only screen and (max-width: 600px){}
+    .flexContainer{
+        display: flex;
+        justify-content: center;  
+      }
+      */
+      .workGrid{
+        display: grid;
+        grid-template-rows: 80% 80%;
+        grid-template-columns: 80% 80%;
+        grid-template-areas: 
+        "project1 project1" 
+        "project2 project2"
+        "project3 project3" 
+        "project4 project4";
+        justify-content: center; 
+        margin: 0%;
+        padding: 0%
+      }
+    
+    
+  
